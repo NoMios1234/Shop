@@ -1,5 +1,5 @@
 # Shop
-This project is reproduce work ASP .NET CORE 
+This project is reproduce work Asp .Net Core 
 Project was developed for education goal
 
 used NuGet packages:
