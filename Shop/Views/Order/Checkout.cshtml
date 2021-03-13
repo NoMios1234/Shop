@@ -1,0 +1,41 @@
+﻿@model Order
+
+<div class="container text-center">
+    <h3>Оформление заказа</h3>
+    <div class="row justify-content-center align-items-center">
+        <form asp-action="Checkout" method="post" class="form-horizontal">
+            <div class="form-group">
+                <label asp-for="orderName"></label>
+                <div>
+                    <input asp-for="orderName" class="form-control" />
+                    <span asp-validation-for="orderName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="orderAddress"></label>
+                <div>
+                    <input asp-for="orderAddress" class="form-control" />
+                    <span asp-validation-for="orderAddress" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="orderPhone"></label>
+                <div>
+                    <input asp-for="orderPhone" class="form-control" />
+                    <span asp-validation-for="orderPhone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="email"></label>
+                <div>
+                    <input asp-for="email" class="form-control" />
+                    <span asp-validation-for="email" class="text-danger"></span>
+                </div>
+            </div>
+            <input class="btn btn-success" type="submit" value="Завершить заказ" />
+        </form>
+    </div>
+
+</div>  
