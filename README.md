@@ -2,7 +2,7 @@
 This project is reproduce work Asp .Net Core 
 Project was developed for education goal
 
-used NuGet packages:
+used NuGet packages: 
 Microsoft.AspNet.Mvc
 Microsoft.AspNetCore.Http.Extentions
 Microsoft.AspNetCore.Session
