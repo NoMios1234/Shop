@@ -11,7 +11,6 @@ namespace Shop.Data.Mocks
     {
         public readonly ICarsCategory _categoryCars = new MockCategory();
         
-        
         public IEnumerable<Car> Cars 
         { 
             get => new List<Car> { 
